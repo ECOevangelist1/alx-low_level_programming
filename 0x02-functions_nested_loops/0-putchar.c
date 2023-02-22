@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char text[] = "_putchar";
+	char text[] = "putchar";
 	char s;
 	int i;
 	int len = strlen(text);
@@ -17,7 +17,7 @@ int main(void)
 		s = text[i];
 		if (s == '\0')
 			s = '\n';
-		putchar (s);
+		putchar(s);
 	}
 	return (0);
 }
