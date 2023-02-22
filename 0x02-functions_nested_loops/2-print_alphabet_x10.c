@@ -16,6 +16,6 @@ void print_alphabet_10x(void)
 		{
 			putchar(letter);
 		}
-		putchar('\n')
+		putchar('\n');
 	}
 }
