@@ -1,21 +1,20 @@
 #include "main.h"
-#include "stdio.h"
 /**
- * print_alphabet_10x - Function to print alphabets
+ * print_alphabet_x10 - Print all alphabets in lowercaser 10 times.
  *
- * Return: int(0)
+ * Return: On success 1.
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	char letter;
-	int i;
+	char i;
+	char k;
 
-	for (i = 0; i < 10; i++)
+	for (k = 0; k < 10; k++)
 	{
-		for (letter = 'a'; letter <= 'z'; letter++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			putchar(letter);
+			_putchar(i);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
