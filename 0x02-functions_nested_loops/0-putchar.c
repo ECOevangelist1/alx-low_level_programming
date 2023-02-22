@@ -1,24 +1,20 @@
-#include <stdio.h>
-#include <string.h>
-#include <main.h>
+#include "main.h"
+
 /**
- * main - main function entry
+ * main - Write a program that prints _putchar
  *
- * Return: int(0)
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	char text[] = "putchar";
-	char s;
-	int i;
-	int len = strlen(text);
-
-	for (i = 0; i <= len; i++)
-	{
-		s = text[i];
-		if (s == '\0')
-			s = '\n';
-		putchar(s);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
