@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - main function
+ * main - main function entry
  *
  * Return: int(0)
  */
