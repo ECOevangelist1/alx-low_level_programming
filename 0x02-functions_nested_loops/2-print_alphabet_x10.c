@@ -5,7 +5,7 @@
  *
  * Return: int(0)
  */
-void print_alphabet_10x(void)
+int main(void)
 {
 	char letter;
 	int i;
