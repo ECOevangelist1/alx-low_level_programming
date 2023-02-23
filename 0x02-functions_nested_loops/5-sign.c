@@ -2,16 +2,16 @@
 /**
  * print_sign - a function that prints the sign of a number
  * @n: number input
- * Return: 1 prints '+' if r > 0, 0 prints '0' if r = 0, -1 prints '-' if r < 0
+ * Return: 1 prints '+' if n > 0, 0 prints '0' if n = 0, -1 prints '-' if n < 0
  */
-int print_sign(n)
+int print_sign(int n)
 {
-	if (r > 0)
+	if (n > 0)
 	{
 		_putchar ('+');
 		return (1);
 	}
-	else if (r == 0)
+	else if (n == 0)
 	{
 		_putchar ('0');
 		return (0);
