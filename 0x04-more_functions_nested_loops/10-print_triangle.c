@@ -28,7 +28,7 @@ void print_traingle(int size)
 			{
 				_putchar('#');
 			}
-			-putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
