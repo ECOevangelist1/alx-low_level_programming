@@ -1,34 +1,29 @@
 #include "main.h"
 
 /**
- * print_traingle - entry point
- *
- * Description: Prints diagonals
- * @size: size of the triangle
- * Return: void
+ * print_traingle - a function that prints a triangle & a new line
+ * @size: input interger
+ * Return: Always 0
  */
-
 void print_traingle(int size)
 {
-	int row, hashes, spaces;
+	int i, j, n = size - 1;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (row = 1; row <= size; row++)
+		for (i = 0; i < size; i++)
 		{
-			for (spaces = size - row; spaces >= 1; spaces--)
+			for (j = 0; j < size; j++)
 			{
-				_putchar(' ');
+				if (j < n)
+					putchar(' ');
+				else
+					putchar('#');
 			}
-			for (hashes = 1; hashes <= row; hashes++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
+			n--;
+			putchar('\n');
 		}
 	}
+	else
+		putchar('\n');
 }
