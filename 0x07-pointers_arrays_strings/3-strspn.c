@@ -18,10 +18,10 @@ unsigned int _strspn(char *s, char *accept)
 	str2 = accept;
 
 	i = 0;
-	while (str1[i] != '\0') /*Declaring WHILE *accept*/
+	while (str1[i] != '\0') /*Declaring WHILE *s */
 	{
 		j = 0;
-		while (str2[j] == str1[i]) /*Evaluate condition*/
+		while (str2[j] != '\0') /*Declaring WHILE *accept*/
 		{
 		if (str2[j] == str1[i]) /*Evaluate condition*/
 		{
