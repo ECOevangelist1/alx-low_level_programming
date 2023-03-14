@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - returns the min number of coins per given amount of money.
+ * main - returns the min numbers of coins per given ammount of money.
  * @argc: argument count or size of arguments.
  * @argv: argument vector
  *
  * return: 0 sucess 1 failure.
  */
-int main(int argc, char argv[])
+int main(int argc, char **argv)
 {
 	int coins, i, ammount;
 	int value[5] = {25, 10, 5, 2, 1};
