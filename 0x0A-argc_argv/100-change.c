@@ -7,7 +7,7 @@
  *
  * return: 0 sucess 1 failure.
  */
-int main(int argc, char **argv)
+int main(int argc, char argv[])
 {
 	int coins, i, ammount;
 	int value[5] = {25, 10, 5, 2, 1};
