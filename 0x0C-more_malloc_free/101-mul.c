@@ -142,6 +142,6 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 	}
-	_prinnt(a, ln - 1);
+	_print(a, ln - 1);
 	return (0);
 }
