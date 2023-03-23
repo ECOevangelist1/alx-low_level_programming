@@ -26,5 +26,5 @@ int (*get_op_func(char *s))(int, int)
 		i++;
 	}
 
-	retunr (ops[i / 2].f);
+	return (ops[i / 2].f);
 }
