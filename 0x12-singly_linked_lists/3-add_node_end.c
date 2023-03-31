@@ -2,12 +2,11 @@
 #include <string.h>
 
 /**
- * add_node_end - adds a new node at the end of a linked list
- * @head: double pointer to the list_t list
- * @str: string to put in the new node
- * Return: address of the new element, or NULL if it fails
+ * add_node_end - A function that adds a node to the end of linked list
+ * @head: pointer to a list_t pointer that points to the head struct
+ * @str: string to add as node
+ * Return: pointer to new element of list, NULL on failure
  */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node, *temp;
@@ -37,3 +36,4 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	return (new_node);
 }
+
