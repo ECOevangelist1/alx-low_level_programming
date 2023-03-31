@@ -5,7 +5,7 @@
  * add_node - function that adds a node at the beginning of a list
  * @head: pointer to the head
  * @str: string to be added to the list
- * @Return: address of the new element
+ * @Return: address of the new_node
  */
 list_t *add_node(list_t **head, const char *str)
 {
