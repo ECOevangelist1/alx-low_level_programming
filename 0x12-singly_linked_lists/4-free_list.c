@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * free_list - A function that free all elements in a linked list
@@ -12,7 +12,7 @@ void free_list(list_t *head)
 	temp = head;
 	while (head)
 	{
-		temp + head;
+		temp = head;
 		head = head->next;
 		free(temp->str);
 		free(temp);

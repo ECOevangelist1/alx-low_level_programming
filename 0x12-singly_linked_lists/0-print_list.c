@@ -3,8 +3,8 @@
 
 /**
  * print_list - A function that prints a linked list
- * @h: pointer t head of list
- * Return: number of nodes in list as size_t
+ * @h: pointer to the head of the list
+ * Return: number of nodes in list
  */
 
 size_t print_list(const list_t *h)
