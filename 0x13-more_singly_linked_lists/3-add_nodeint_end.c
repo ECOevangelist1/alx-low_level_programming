@@ -1,6 +1,6 @@
 /*
  * File: 3-add_nodeint_end.c
- * Auth: Jerry Doubles
+ * Auth: Samuel Austin
  */
 #include "lists.h"
 
