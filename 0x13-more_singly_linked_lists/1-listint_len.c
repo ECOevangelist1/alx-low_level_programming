@@ -1,6 +1,6 @@
 /*
  * File: 1-list_len.c
- * Auth: Jerry Doubles
+ * Auth: Samuel Austin
  */
 #include "lists.h"
 
